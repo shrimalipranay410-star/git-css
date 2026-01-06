@@ -46,14 +46,13 @@ ul li{
 
 }
 
-.card-avatar img{
+.card-avatar img {
     height: 50px;
     width: 50px;
     margin-right: 1em;
 }
-.card-details{
+.card-details {
     line-height: 1.5;
-    ;
 }
 
 .card-details h3{
@@ -66,7 +65,7 @@ ul li{
     color:#b7bbc8;
 }
 
-.card-stats{
+.card-stats {
     display: none;
     padding-bottom:.5em ;
 }
