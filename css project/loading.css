@@ -21,7 +21,7 @@ html,body{
     background: #000;
     margin: .5em;
     border-radius: 50%;
-    animation: pulse infinite 1s;
+    animation: pulse infinite alternate 1s;
 
 }
 
