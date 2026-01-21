@@ -1,0 +1,47 @@
+:root{
+    --bg-word:#5134ff;
+
+
+}
+html,body{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;;
+
+}
+h1::after{
+    content: "";
+    animation: 6s swap infinite;
+    background:#5134ff;
+    padding: 10px;
+    color: white;
+    border-radius: 4px;
+    margin-left: 4px;
+    font-family:'Courier New', Courier, monospace;
+
+
+}
+
+@keyframes swap{
+    0%{
+        content: "coding"
+    }
+    25%{
+        content: "Ahemdabad"
+    }
+    50%{
+        content:"singing" 
+    }
+    75%{
+        content:"Traveling"
+    }
+    100%{
+        content:"maa" 
+    }
+}
