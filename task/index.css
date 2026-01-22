@@ -1,0 +1,89 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+html,body{
+    margin: 0;
+    padding: 0;
+    background: black;
+    color: white;
+    
+       
+}
+
+h3{
+    margin: 0;
+    padding: 0;
+    
+}
+
+p{
+    margin: 0;
+    padding: 0;
+    color: darkgray;
+   
+}
+
+
+  
+.location{
+    margin: 0;
+    padding: 0;
+    color: greenyellow;
+    
+   
+}
+
+.container{
+    display: flex;
+    text-align: center;
+
+}
+
+.container,img{
+    height: 50%;
+    border-radius: 50%;
+    border: 2px solid black;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.card{  
+      background-color: hsl(0, 0%, 12%);
+      width: 25%;
+      padding: 25px;
+      border-radius: 12px;
+      font-family: inherit;
+}
+
+.button {
+    margin: 5px;
+    padding: 5px;
+    gap: 10px;
+    border: 5em;
+    margin: auto;
+
+}
+
+button{
+    background:grey ;
+    color: white;
+    border-radius: 5px;
+    height: 40px;
+    width: 250px;
+    margin: 2px;
+    padding: 2px;
+    padding-left: 2%;
+    cursor: pointer;   
+    display: block; 
+    margin: auto;
+}
+
+button:hover{
+    background: greenyellow;
+    color: black;
+    
+}
